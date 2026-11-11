@@ -118,16 +118,6 @@
         </div>
       </section>
 
-      <script>
-        document.addEventListener("DOMContentLoaded", () => {
-          const introVideo = document.querySelector(".intro-video");
-          if (introVideo) {
-            introVideo.muted = false;
-            introVideo.volume = 1;
-          }
-        });
-      </script>
-
       <section class="section services-section wrap" id="services">
         <div class="section-heading">
           <div><p class="section-kicker"><span>01</span> / WHAT I DO</p><h2>Shape the sound.<br /><span>Build the feeling.</span></h2></div>
@@ -264,14 +254,70 @@
           </div>
           <div class="project-grid">
             <article class="project-card project-card-large">
-              <div class="project-placeholder visual-blue project-video" id="project-1"><iframe src="https://www.youtube.com/embed/zHF3WXdTMp0" title="I'm Glad You're Evil Too - Kibawoo cover music video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
-              <div class="project-info"><div><h3>I'm Glad You're Evil Too - Kibawoo 【COVER】</h3><p>Music video · Editing</p></div><span class="project-arrow">↗</span></div>
-            </article>
-            <article class="project-card"><div class="project-placeholder visual-steel project-video" id="project-2"><iframe src="https://www.youtube.com/embed/rS0XVcMZgIA" title="Empty Hour music video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div><div class="project-info"><div><h3>Empty Hour</h3><p>Music video · Motion Graphics</p></div><span class="project-arrow">↗</span></div></article>
-            <article class="project-card"><div class="project-placeholder visual-night project-video" id="project-3"><iframe src="https://www.youtube.com/embed/QG-5BqhkshU" title="One Last Sunrise music video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div><div class="project-info"><div><h3>One Last Sunrise</h3><p>Music video · Motion Graphics</p></div><span class="project-arrow">↗</span></div></article>
-            <article class="project-card"><div class="project-placeholder visual-cyan project-video" id="project-4"><iframe src="https://www.youtube.com/embed/hYA0lrBWSAE" title="Beyond The Way music video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div><div class="project-info"><div><h3>Beyond The Way</h3><p>Performance edit · VFX</p></div><span class="project-arrow">↗</span></div></article>
-            <article class="project-card"><div class="project-placeholder visual-indigo project-video" id="project-5"><iframe src="https://www.youtube.com/embed/Z54zp43-0U0" title="月夜のワルツ music video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div><div class="project-info"><div><h3>月夜のワルツ</h3><p>Music video · Compositing</p></div><span class="project-arrow">↗</span></div></article>
-            <article class="project-card"><div class="project-placeholder visual-blue-soft project-video" id="project-6"><iframe src="https://www.youtube.com/embed/KhWz8kb6FLs" title="Start Communication music video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div><div class="project-info"><div><h3>Start Communication</h3><p>Music video · Motion Graphics</p></div><span class="project-arrow">↗</span></div></article>
+  <a href="https://youtu.be/zHF3WXdTMp0?si=stvXgNGA-FVuNQ52" target="_blank" rel="noopener noreferrer" class="project-placeholder visual-blue project-video" id="project-1">
+    <img src="https://img.youtube.com/vi/zHF3WXdTMp0/hqdefault.jpg" alt="I'm Glad You're Evil Too" loading="lazy">
+    <div class="video-play-button">▶</div>
+  </a>
+  <div class="project-info">
+    <div><h3>I'm Glad You're Evil Too - Kibawoo 【COVER】</h3><p>Music video · Editing</p></div>
+    <span class="project-arrow">↗</span>
+  </div>
+</article>
+
+<article class="project-card">
+  <a href="https://www.youtube.com/watch?v=rS0XVcMZgIA" target="_blank" rel="noopener noreferrer" class="project-placeholder visual-steel project-video" id="project-2">
+    <img src="https://img.youtube.com/vi/rS0XVcMZgIA/hqdefault.jpg" alt="Empty Hour" loading="lazy">
+    <div class="video-play-button">▶</div>
+  </a>
+  <div class="project-info">
+    <div><h3>Empty Hour</h3><p>Music video · Motion Graphics</p></div>
+    <span class="project-arrow">↗</span>
+  </div>
+</article>
+
+<article class="project-card">
+  <a href="https://www.youtube.com/watch?v=QG-5BqhkshU" target="_blank" rel="noopener noreferrer" class="project-placeholder visual-night project-video" id="project-3">
+    <img src="https://img.youtube.com/vi/QG-5BqhkshU/hqdefault.jpg" alt="One Last Sunrise" loading="lazy">
+    <div class="video-play-button">▶</div>
+  </a>
+  <div class="project-info">
+    <div><h3>One Last Sunrise</h3><p>Music video · Motion Graphics</p></div>
+    <span class="project-arrow">↗</span>
+  </div>
+</article>
+
+<article class="project-card">
+  <a href="https://www.youtube.com/watch?v=hYA0lrBWSAE" target="_blank" rel="noopener noreferrer" class="project-placeholder visual-cyan project-video" id="project-4">
+    <img src="https://img.youtube.com/vi/hYA0lrBWSAE/hqdefault.jpg" alt="Beyond The Way" loading="lazy">
+    <div class="video-play-button">▶</div>
+  </a>
+  <div class="project-info">
+    <div><h3>Beyond The Way</h3><p>Performance edit · VFX</p></div>
+    <span class="project-arrow">↗</span>
+  </div>
+</article>
+
+<article class="project-card">
+  <a href="https://www.youtube.com/watch?v=Z54zp43-0U0" target="_blank" rel="noopener noreferrer" class="project-placeholder visual-indigo project-video" id="project-5">
+    <img src="https://img.youtube.com/vi/Z54zp43-0U0/hqdefault.jpg" alt="月夜のワルツ" loading="lazy">
+    <div class="video-play-button">▶</div>
+  </a>
+  <div class="project-info">
+    <div><h3>月夜のワルツ</h3><p>Music video · Compositing</p></div>
+    <span class="project-arrow">↗</span>
+  </div>
+</article>
+
+<article class="project-card">
+  <a href="https://www.youtube.com/watch?v=KhWz8kb6FLs" target="_blank" rel="noopener noreferrer" class="project-placeholder visual-blue-soft project-video" id="project-6">
+    <img src="https://img.youtube.com/vi/KhWz8kb6FLs/hqdefault.jpg" alt="Start Communication" loading="lazy">
+    <div class="video-play-button">▶</div>
+  </a>
+  <div class="project-info">
+    <div><h3>Start Communication</h3><p>Music video · Motion Graphics</p></div>
+    <span class="project-arrow">↗</span>
+  </div>
+</article>
           </div>
           <p class="gallery-footnote"><span class="blue-dot"></span> Multimedia element: embedded YouTube video players.</p>
         </div>
@@ -297,7 +343,6 @@
             <p>Use the form to prepare your message, then send it through my VGen profile.</p>
             <a class="button button-light" href="https://vgen.co/avar1s_" target="_blank" rel="noopener noreferrer">Open VGen profile <span>↗</span></a>
           </div>
-          <!-- Replace YOUR_EMAIL_ADDRESS with the email address that should receive inquiries. -->
           <form class="contact-form" action="mailto:YOUR_EMAIL_ADDRESS" method="post" enctype="text/plain">
             <div class="form-field">
               <label for="contact-name">Your name</label>
