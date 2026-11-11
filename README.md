@@ -5,7 +5,7 @@ Website portfolio satu halaman untuk tugas UTS Pemrograman Web. Dibuat hanya den
 ## Struktur folder
 
 ```text
-UTS_Web_NIM_Indra_Dwiyantoro/
+UTS_Web_312510495_Indra_Dwiyantoro/
 ├── index.html
 ├── style.css
 ├── images/
@@ -57,11 +57,3 @@ Menu mobile menggunakan elemen HTML native `<details>` dan `<summary>`. Pengguna
 ## Form kontak
 
 Form memakai validasi native browser. Setelah data valid dikirim, browser akan membuka aplikasi email default melalui tautan `mailto:`. Tidak ada pengolahan data, clipboard API, atau pengiriman otomatis ke server. Pastikan mengganti `YOUR_EMAIL_ADDRESS` pada form action sebelum menggunakannya secara publik.
-
-## Bagian yang perlu dilengkapi sebelum dikumpulkan
-
-- Ganti `images/profil.jpg` dengan foto lain bila diperlukan (atau ubah path pada `index.html`).
-- Ganti URL embed YouTube di bagian `MULTIMEDIA & SELECTED WORK` untuk menambah atau mengganti video portfolio.
-- Pastikan file video perkenalan bernama `perkenalan.mp4` dan audio bernama `perkenalan.mp3`, lalu letakkan keduanya di folder `media/`. Pemutar pada halaman sudah menggunakan path tersebut.
-- Ganti `YOUR_EMAIL_ADDRESS` pada form kontak dengan email penerima yang benar.
-- Ganti `NIM` pada nama folder dengan NIM milikmu.
